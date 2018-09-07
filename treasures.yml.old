@@ -1,6 +1,6 @@
 #
 #  Settings for Fishing
-#  Last updated on 1.6.0-SNAPSHOT-b${BUILD_NUMBER}
+#  Last updated on 1.5.04-SNAPSHOT-b82
 ###
 Fishing:
     LEATHER_BOOTS:
@@ -19,35 +19,35 @@ Fishing:
         Amount: 1
         XP: 200
         Rarity: COMMON
-    WOODEN_SWORD:
+    WOOD_SWORD:
         Amount: 1
         XP: 200
         Rarity: COMMON
-    WOODEN_SHOVEL:
+    WOOD_SPADE:
         Amount: 1
         XP: 200
         Rarity: COMMON
-    WOODEN_PICKAXE:
+    WOOD_PICKAXE:
         Amount: 1
         XP: 200
         Rarity: COMMON
-    WOODEN_AXE:
+    WOOD_AXE:
         Amount: 1
         XP: 200
         Rarity: COMMON
-    WOODEN_HOE:
+    WOOD_HOE:
         Amount: 1
         XP: 200
         Rarity: COMMON
-    LAPIS_LAZULI:
+    INK_SACK_BLUE:
         Amount: 20
         XP: 200
-        Rarity: COMMON
+        Rarity: UNCOMMON
     STONE_SWORD:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    STONE_SHOVEL:
+    STONE_SPADE:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
@@ -63,39 +63,39 @@ Fishing:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    GOLDEN_SWORD:
+    GOLD_SWORD:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    GOLDEN_SHOVEL:
+    GOLD_SPADE:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    GOLDEN_PICKAXE:
+    GOLD_PICKAXE:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    GOLDEN_AXE:
+    GOLD_AXE:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    GOLDEN_HOE:
+    GOLD_HOE:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    GOLDEN_BOOTS:
+    GOLD_BOOTS:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    GOLDEN_HELMET:
+    GOLD_HELMET:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    GOLDEN_LEGGINGS:
+    GOLD_LEGGINGS:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
-    GOLDEN_CHESTPLATE:
+    GOLD_CHESTPLATE:
         Amount: 1
         XP: 200
         Rarity: UNCOMMON
@@ -111,7 +111,7 @@ Fishing:
         Amount: 1
         XP: 200
         Rarity: RARE
-    IRON_SHOVEL:
+    IRON_SPADE:
         Amount: 1
         XP: 200
         Rarity: RARE
@@ -130,7 +130,7 @@ Fishing:
     BOW:
         Amount: 1
         XP: 200
-        Rarity: RARE
+        Rarity: UNCOMMON
     ENDER_PEARL:
         Amount: 1
         XP: 200
@@ -167,7 +167,7 @@ Fishing:
         Amount: 1
         XP: 200
         Rarity: LEGENDARY
-    DIAMOND_SHOVEL:
+    DIAMOND_SPADE:
         Amount: 1
         XP: 200
         Rarity: LEGENDARY
@@ -199,47 +199,43 @@ Fishing:
         Amount: 1
         XP: 200
         Rarity: LEGENDARY
-    MUSIC_DISC_BLOCKS:
+    RECORD_3:
         Amount: 1
         XP: 200
         Rarity: RECORD
-    MUSIC_DISC_CHIRP:
+    RECORD_4:
         Amount: 1
         XP: 200
         Rarity: RECORD
-    MUSIC_DISC_FAR:
+    RECORD_5:
         Amount: 1
         XP: 200
         Rarity: RECORD
-    MUSIC_DISC_MALL:
+    RECORD_6:
         Amount: 1
         XP: 200
         Rarity: RECORD
-    MUSIC_DISC_MELLOHI:
+    RECORD_7:
         Amount: 1
         XP: 200
         Rarity: RECORD
-    MUSIC_DISC_STAL:
+    RECORD_8:
         Amount: 1
         XP: 200
         Rarity: RECORD
-    MUSIC_DISC_STRAD:
+    RECORD_9:
         Amount: 1
         XP: 200
         Rarity: RECORD
-    MUSIC_DISC_WARD:
+    RECORD_10:
         Amount: 1
         XP: 200
         Rarity: RECORD
-    MUSIC_DISC_11:
+    RECORD_11:
         Amount: 1
         XP: 200
         Rarity: RECORD
-    MUSIC_DISC_WAIT:
-        Amount: 1
-        XP: 200
-        Rarity: RECORD
-    MUSIC_DISC_13:
+    RECORD_12:
         Amount: 1
         XP: 200
         Rarity: RECORD
@@ -379,7 +375,7 @@ Enchantments_Rarity:
         BLAST_PROTECTION: 4
         PROJECTILE_PROTECTION: 4
         RESPIRATION: 3
-        AQUA_AFFINITY: 1
+        AQUA_AFFINITY: 2
         THORNS: 3
         SHARPNESS: 5
         SMITE: 5
@@ -450,8 +446,8 @@ Excavation:
         XP: 3000
         Drop_Chance: 0.05
         Drop_Level: 750
-        Drops_From: [Dirt, Podzol, Grass, Sand, Red_Sand, Gravel, Clay, Mycelium, Soul_Sand]
-    GUNPOWDER:
+        Drops_From: [Dirt, Podzol, Grass, Sand, Red_Sand, Gravel, Clay, Mycelium, Soul_Sand, Snow]
+    SULPHUR:
         Amount: 1
         XP: 30
         Drop_Chance: 10.0
@@ -468,7 +464,7 @@ Excavation:
         XP: 100
         Drop_Chance: 0.1
         Drop_Level: 250
-        Drops_From: [Grass, Mycelium]
+        Drops_From: [Grass, Mycelium, Snow]
     SLIME_BALL:
         Amount: 1
         XP: 100
@@ -492,13 +488,13 @@ Excavation:
         XP: 80
         Drop_Chance: 0.5
         Drop_Level: 500
-        Drops_From: [Dirt, Podzol, Grass, Mycelium]
+        Drops_From: [Dirt, Podzol, Grass, Mycelium, Snow]
     BROWN_MUSHROOM:
         Amount: 1
         XP: 80
         Drop_Chance: 0.5
         Drop_Level: 500
-        Drops_From: [Dirt, Podzol, Grass, Mycelium]
+        Drops_From: [Dirt, Podzol, Grass, Mycelium, Snow]
     EGG:
         Amount: 1
         XP: 100
@@ -511,13 +507,13 @@ Excavation:
         Drop_Chance: 0.5
         Drop_Level: 650
         Drops_From: [Sand, Red_Sand]
-    CLOCK:
+    WATCH:
         Amount: 1
         XP: 100
         Drop_Chance: 0.1
         Drop_Level: 500
         Drops_From: [Clay]
-    COBWEB:
+    WEB:
         Amount: 1
         XP: 150
         Drop_Chance: 5.0
@@ -535,13 +531,13 @@ Excavation:
         Drop_Chance: 5.0
         Drop_Level: 25
         Drops_From: [Dirt, Podzol, Grass, Sand, Red_Sand, Mycelium]
-    MUSIC_DISC_13:
+    GOLD_RECORD:
         Amount: 1
         XP: 3000
         Drop_Chance: 0.05
         Drop_Level: 250
         Drops_From: [Dirt, Podzol, Grass, Sand, Red_Sand, Gravel, Clay, Mycelium, Soul_Sand]
-    MUSIC_DISC_CAT:
+    GREEN_RECORD:
         Amount: 1
         XP: 3000
         Drop_Chance: 0.05
@@ -552,8 +548,8 @@ Excavation:
         XP: 1000
         Drop_Chance: 0.13
         Drop_Level: 350
-        Drops_From: [Dirt, Podzol, Grass, Sand, Red_Sand, Gravel, Clay, Mycelium, Soul_Sand]
-    COCOA_BEANS:
+        Drops_From: [Dirt, Podzol, Grass, Sand, Red_Sand, Gravel, Clay, Mycelium, Soul_Sand, Snow]
+    INK_SACK_BROWN:
         Amount: 1
         XP: 100
         Drop_Chance: 1.33
@@ -587,19 +583,19 @@ Hylian_Luck:
         Drop_Chance: 100.0
         Drop_Level: 0
         Drops_From: [Bushes]
-    COCOA_BEANS:
+    INK_SACK_BROWN:
         Amount: 1
         XP: 0
         Drop_Chance: 100.0
         Drop_Level: 0
         Drops_From: [Bushes]
-    CARROT:
+    CARROT_ITEM:
         Amount: 1
         XP: 0
         Drop_Chance: 100.0
         Drop_Level: 0
         Drops_From: [Flowers]
-    POTATO:
+    POTATO_ITEM:
         Amount: 1
         XP: 0
         Drop_Chance: 100.0
@@ -650,14 +646,12 @@ Shake:
             XP: 0
             Drop_Chance: 49.0
             Drop_Level: 0
-        COBWEB:
+        WEB:
             Amount: 1
             XP: 0
             Drop_Chance: 1.0
             Drop_Level: 0
-        POTION|0|POISON:
-            PotionData:
-                PotionType: POISON
+        POTION_POISON:
             Amount: 1
             XP: 0
             Drop_Chance: 1.0
@@ -668,7 +662,7 @@ Shake:
             XP: 0
             Drop_Chance: 33.3
             Drop_Level: 0
-        CHICKEN:
+        RAW_CHICKEN:
             Amount: 1
             XP: 0
             Drop_Chance: 33.3
@@ -689,19 +683,19 @@ Shake:
             XP: 0
             Drop_Chance: 49.0
             Drop_Level: 0
-        BEEF:
+        RAW_BEEF:
             Amount: 1
             XP: 0
             Drop_Chance: 49.0
             Drop_Level: 0
     CREEPER:
-        SKELETON_SKULL:
+        SKULL_ITEM:
             Data: 4
             Amount: 1
             XP: 0
             Drop_Chance: 1.0
             Drop_Level: 0
-        GUNPOWDER:
+        SULPHUR:
             Amount: 1
             XP: 0
             Drop_Chance: 99.0
@@ -713,7 +707,7 @@ Shake:
             Drop_Chance: 100.0
             Drop_Level: 0
     GHAST:
-        GUNPOWDER:
+        SULPHUR:
             Amount: 1
             XP: 0
             Drop_Chance: 50.0
@@ -745,7 +739,7 @@ Shake:
             XP: 0
             Drop_Chance: 12.0
             Drop_Level: 0
-        POPPY:
+        RED_ROSE:
             Amount: 1
             XP: 0
             Drop_Chance: 85.0
@@ -762,7 +756,7 @@ Shake:
             XP: 0
             Drop_Chance: 5.0
             Drop_Level: 0
-        MUSHROOM_STEW:
+        MUSHROOM_SOUP:
             Amount: 1
             XP: 0
             Drop_Chance: 5.0
@@ -772,7 +766,7 @@ Shake:
             XP: 0
             Drop_Chance: 30.0
             Drop_Level: 0
-        BEEF:
+        RAW_BEEF:
             Amount: 1
             XP: 0
             Drop_Chance: 30.0
@@ -783,7 +777,7 @@ Shake:
             Drop_Chance: 30.0
             Drop_Level: 0
     PIG:
-        PORKCHOP:
+        PORK:
             Amount: 1
             XP: 0
             Drop_Chance: 100.0
@@ -800,7 +794,7 @@ Shake:
             Drop_Chance: 50.0
             Drop_Level: 0
     PLAYER:
-        SKELETON_SKULL:
+        SKULL_ITEM:
             Amount: 1
             XP: 0
             Drop_Chance: 0.0
@@ -810,24 +804,13 @@ Shake:
             Drop_Chance: 0.0
             Drop_Level: 0
     SHEEP:
-        WHITE_WOOL:
+        WOOL:
             Amount: 3
             XP: 0
             Drop_Chance: 100.0
             Drop_Level: 0
-    SHULKER:
-        SHULKER_SHELL:
-            Amount: 1
-            XP: 0
-            Drop_Chance: 25.0
-            Drop_Level: 0
-        PURPUR_BLOCK:
-            Amount: 1
-            XP: 0
-            Drop_Chance: 75.0
-            Drop_Level: 0
     SKELETON:
-        SKELETON_SKULL:
+        SKULL_ITEM:
             Data: 0
             Amount: 1
             XP: 0
@@ -866,35 +849,29 @@ Shake:
             XP: 0
             Drop_Chance: 3.0
             Drop_Level: 0
-        SNOWBALL:
+        SNOW_BALL:
             Amount: 2
             XP: 0
             Drop_Chance: 97.0
             Drop_Level: 0
     SQUID:
-        INK_SAC:
+        INK_SACK_BLACK:
             Amount: 1
             XP: 0
             Drop_Chance: 100.0
             Drop_Level: 0
     WITCH:
-        SPLASH_POTION|0|INSTANT_HEAL:
-            PotionData:
-                PotionType: INSTANT_HEAL
+        POTION_INSTANT_HEAL:
             Amount: 1
             XP: 0
             Drop_Chance: 1.0
             Drop_Level: 0
-        SPLASH_POTION|0|FIRE_RESISTANCE:
-            PotionData:
-                PotionType: FIRE_RESISTANCE
+        POTION_FIRE_RESISTANCE:
             Amount: 1
             XP: 0
             Drop_Chance: 1.0
             Drop_Level: 0
-        SPLASH_POTION|0|SPEED:
-            PotionData:
-                PotionType: SPEED
+        POTION_SPEED:
             Amount: 1
             XP: 0
             Drop_Chance: 1.0
@@ -909,7 +886,7 @@ Shake:
             XP: 0
             Drop_Chance: 15.0
             Drop_Level: 0
-        GUNPOWDER:
+        SULPHUR:
             Amount: 1
             XP: 0
             Drop_Chance: 15.0
@@ -934,25 +911,8 @@ Shake:
             XP: 0
             Drop_Chance: 15.0
             Drop_Level: 0
-    WITHER_SKELETON:
-        WITHER_SKELETON_SKULL:
-            Data: 0
-            Amount: 1
-            XP: 0
-            Drop_Chance: 2.0
-            Drop_Level: 0
-        BONE:
-            Amount: 1
-            XP: 0
-            Drop_Chance: 49.0
-            Drop_Level: 0
-        COAL:
-            Amount: 2
-            XP: 0
-            Drop_Chance: 49.0
-            Drop_Level: 0
     ZOMBIE:
-        SKELETON_SKULL:
+        SKULL_ITEM:
             Data: 2
             Amount: 1
             XP: 0

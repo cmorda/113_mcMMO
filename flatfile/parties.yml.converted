@@ -1,0 +1,17 @@
+HotLaptops:
+  Leader: f683b8cc-236f-487b-b0c4-cb637b2af9be|CavemanlyMan
+  Locked: false
+  Level: 1
+  Xp: 1260
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - f683b8cc-236f-487b-b0c4-cb637b2af9be|CavemanlyMan
+  - 51df1e0c-1b9f-43af-96e4-11284ae7cb6c|isaac_kern
